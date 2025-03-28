@@ -1,0 +1,26 @@
+### Criar um novo produto
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "Mouse Gamer",
+  "price": 149.90
+}
+
+### Buscar todos os produtos
+GET http://localhost:3000/products
+
+### Buscar um produto específico
+GET http://localhost:3000/products/1
+
+### Atualizar um produto
+PUT http://localhost:3000/products/1
+Content-Type: application/json
+
+{
+  "name": "Teclado Mecânico",
+  "price": 299.90
+}
+
+### Deletar um produto
+DELETE http://localhost:3000/products/1
