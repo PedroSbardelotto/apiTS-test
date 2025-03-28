@@ -3,7 +3,7 @@ POST http://localhost:3000/products
 Content-Type: application/json
 
 {
-  "name": "Mouse Gamer",
+  "name": "Mouse Gamer 3",
   "price": 149.90
 }
 
@@ -24,3 +24,4 @@ Content-Type: application/json
 
 ### Deletar um produto
 DELETE http://localhost:3000/products/1
+
